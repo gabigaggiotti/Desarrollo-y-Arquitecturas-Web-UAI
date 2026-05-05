@@ -1,0 +1,147 @@
+﻿/* === RESET Y BASE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #f4f4f4;
+  color: #222222;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* === CONTENEDOR PRINCIPAL === */
+#pagina {
+  width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 30px;
+}
+
+/* === NAVBAR === */
+#navbar {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #888888;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #003399;
+  padding-bottom: 8px;
+}
+
+.seccion {
+  color: #003399;
+  font-weight: bold;
+}
+
+/* === TITULO PRINCIPAL === */
+#titulo-principal {
+  font-size: 30px;
+  color: #111111;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+/* === META (autor y fecha) === */
+.meta {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.autor {
+  color: #003399;
+}
+
+.fecha {
+  color: #888888;
+}
+
+/* === SEPARADOR === */
+hr {
+  border: none;
+  border-top: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+/* === CUERPO DE LA NOTICIA === */
+.cuerpo h2 {
+  font-size: 20px;
+  color: #003399;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  border-left: 4px solid #003399;
+  padding-left: 10px;
+}
+
+.cuerpo h3 {
+  font-size: 17px;
+  color: #333333;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+.cuerpo p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.destacado {
+  color: #cc0000;
+  font-weight: bold;
+}
+
+/* === FUENTE === */
+.fuente {
+  font-size: 13px;
+  color: #888888;
+  margin-top: 20px;
+  border-top: 1px solid #eeeeee;
+  padding-top: 10px;
+}
+
+.fuente a {
+  color: #003399;
+  text-decoration: none;
+}
+
+.fuente a:hover {
+  text-decoration: underline;
+}
+
+/* === ASIDE === */
+#relacionadas {
+  margin-top: 30px;
+  background-color: #f0f4ff;
+  border: 1px solid #c0ccee;
+  padding: 15px 20px;
+}
+
+#relacionadas h3 {
+  font-size: 15px;
+  color: #003399;
+  margin-bottom: 10px;
+}
+
+#relacionadas ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+#relacionadas ul li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+#relacionadas ul li a {
+  color: #003399;
+  text-decoration: none;
+}
+
+#relacionadas ul li a:hover {
+  text-decoration: underline;
+}
