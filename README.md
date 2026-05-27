@@ -14,3 +14,9 @@ Se practica la creación de Pull Requests y el proceso de merge.
 | Clase 04  | La Selección Argentina se prepara para las Eliminatorias | https://www.lanacion.com.ar |
 
 | Clase 05  | El Banco Central baja la tasa de interés al 29% anual | https://www.clarin.com |
+
+## TP1 - Flexbox
+
+Portada de diario digital desarrollada con HTML, CSS y Flexbox con enfoque Mobile First.
+
+- **GitHub Pages:** https://gabigaggiotti.github.io/Desarrollo-y-Arquitecturas-Web-UAI/diario.html
