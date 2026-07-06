@@ -20,3 +20,9 @@ Se practica la creación de Pull Requests y el proceso de merge.
 Portada de diario digital desarrollada con HTML, CSS y Flexbox con enfoque Mobile First.
 
 - **GitHub Pages:** https://gabigaggiotti.github.io/Desarrollo-y-Arquitecturas-Web-UAI/diario.html
+
+## Clase 11 - Rick & Morty API
+
+Buscador de personajes que consume la API REST de rickandmortyapi.com usando JavaScript (fetch). Incluye búsqueda de todos los personajes, filtros (name, status, species, type, gender) y manejo de errores.
+
+- **GitHub Pages:** https://gabigaggiotti.github.io/Desarrollo-y-Arquitecturas-Web-UAI/rickmorty.html
