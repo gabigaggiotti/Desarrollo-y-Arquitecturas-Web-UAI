@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick & Morty - Personajes</title>
+  <link rel="stylesheet" href="rickmorty.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Rick &amp; Morty</h1>
+    <p>Buscador de personajes usando la API de rickandmortyapi.com</p>
+  </header>
+
+  <main class="contenido">
+
+    <!-- BOTON TRAER TODOS -->
+    <section class="acciones">
+      <button id="btn-todos">Traer todos los personajes</button>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filtros">
+      <h2>Buscar con filtros</h2>
+
+      <div class="campos">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" placeholder="Ej: Rick">
+
+        <label for="status">Estado</label>
+        <input type="text" id="status" placeholder="alive, dead o unknown">
+
+        <label for="species">Especie</label>
+        <input type="text" id="species" placeholder="Ej: Human">
+
+        <label for="type">Tipo</label>
+        <input type="text" id="type" placeholder="Ej: Genetic experiment">
+
+        <label for="gender">Género</label>
+        <input type="text" id="gender" placeholder="female, male, genderless o unknown">
+      </div>
+
+      <button id="btn-buscar">Buscar</button>
+    </section>
+
+    <!-- MENSAJE DE ERROR -->
+    <p id="mensaje-error" class="error"></p>
+
+    <!-- RESULTADOS -->
+    <section id="resultados"></section>
+
+  </main>
+
+  <script src="rickmorty.js"></script>
+</body>
+</html>
